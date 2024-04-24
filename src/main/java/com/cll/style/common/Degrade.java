@@ -33,8 +33,6 @@ public abstract class Degrade<P, T> {
         return degradeAction.doAction(content);
     }
 
-    public abstract boolean doSwitch(DegradeCityContent content);
-
     public abstract T doNotDegradeAction(P content);
 
     public abstract T doDegradeAction(P content);
